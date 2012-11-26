@@ -19,7 +19,8 @@
       <td style="text-align: right;"><%= ChronicDuration.output(race['time'], :format => :chrono) %></td>
       <td style="text-align: right;"><%= ChronicDuration.output(race['pace'], :format => :chrono) %></td>
       <td style="text-align: right;">
-        <%= race['place'] %> / <%= race['finishers'] %>
+        <%= race['place'].ordinalize.gsub(race['place'].to_s, "#{race['place']}<sup>") %></sup>
+        / <%= race['finishers'] %>
       </td>
     </tr>
   <% end %>

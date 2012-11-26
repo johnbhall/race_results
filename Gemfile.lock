@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
     chronic_duration (0.9.6)
       numerizer (~> 0.1.1)
     directory_watcher (1.4.1)
@@ -20,5 +23,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_support
   chronic_duration
   stasis
