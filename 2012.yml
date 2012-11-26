@@ -1,0 +1,76 @@
+Credit Union Cherry Blossom:
+  name: Credit Union Cherry Blossom
+  date: 2012-04-01
+  location: "Washington, DC"
+  bib: 123
+  distance: 10 miles
+  time: 0:54:40
+  pace: 0:05:28
+  place: 43
+  gender_place: 38
+  finishers: 16923 # 7193 men + 9730 women
+  splits:
+    5miles: 0:26:39
+
+Covered Bridges Half Marathon:
+  name: Covered Bridges Half Marathon
+  date: 2012-06-03
+  location: "Woodstock, VT" # "Pomfret, Woodstock, and Quechee, VT "
+  bib: 3
+  distance: half marathon
+  time: 1:16:23
+  pace: 0:05:50
+  place: 3
+  gender_place: 3
+  finishers: 1823
+
+Beach to Beacon 10k:
+  name: Beach to Beacon 10k
+  date: 2012-08-04
+  location: "Cape Elizabeth, ME"
+  bib: 2763
+  distance: 10k
+  time: 0:34:39 # 0:34:38.6
+  pace: 0:05:37
+  place: 72
+  gender_place: 59
+  finishers: 6105
+
+Arlington 9/11 5k:
+  name: Arlington 9/11 5k
+  date: 2012-09-08
+  location: "Arlington, VA"
+  bib: 2374
+  distance: 5k (short)
+  time: 0:15:51
+  pace: 0:05:06
+  place: 4
+  gender_place: 4
+  finishers: 3072
+  notes: team Polar Bears finished first!
+
+Army Ten Miler:
+  name: Army Ten Miler
+  date: 2012-10-21
+  location: "Washington, DC"
+  bib: 1761
+  distance: 10 miles
+  time: 0:55:17
+  pace: 0:05:32
+  place: 67
+  gender_place: 67
+  finishers: 21912
+  splits:
+    10k: 0:34:15
+
+Bow Turkey Trot:
+  name: Bow Turkey Trot
+  date: 2012-11-22
+  location: "Bow, NH"
+  bib: 127
+  distance: 5k
+  time: 0:16:49
+  pace: 0:05:26
+  place: 1
+  gender_place: 1
+  finishers: 373

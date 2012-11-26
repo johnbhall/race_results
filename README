@@ -1,0 +1,5 @@
+Race Results
+============
+
+Run `bundle` to install all gems.
+Run `stasis` to generate the static site.

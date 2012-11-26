@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chronic_duration (0.9.6)
+      numerizer (~> 0.1.1)
+    directory_watcher (1.4.1)
+    numerizer (0.1.1)
+    redis (2.2.2)
+    slop (2.1.0)
+    stasis (0.1.23)
+      directory_watcher (~> 1.4.1)
+      redis (~> 2.2.2)
+      slop (~> 2.1.0)
+      tilt (~> 1.3.3)
+      yajl-ruby (~> 1.0.0)
+    tilt (1.3.3)
+    yajl-ruby (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chronic_duration
+  stasis
