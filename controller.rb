@@ -9,6 +9,8 @@ require 'active_support/core_ext/integer/inflections'
 # number_with_delimiter
 require 'action_view'
 
+ignore "Gemfile", "Gemfile.lock", "README"
+
 before "index.html.erb" do
   @races = YAML.load_file('results/2012.yml').values.sort{|a, b| b['date'] <=> a['date']}
 end
