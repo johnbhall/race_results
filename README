@@ -2,4 +2,4 @@ Race Results
 ============
 
 Run `bundle` to install all gems.
-Run `stasis -d` to generate the static site.
+Run `stasis -d` to generate the static site in development mode (auto-regenerate on save).
