@@ -10,7 +10,7 @@ require 'active_support/core_ext/integer/inflections'
 require 'action_view'
 
 before "index.html.erb" do
-  @races = YAML.load_file('2012.yml').values.sort{|a, b| b['date'] <=> a['date']}
+  @races = YAML.load_file('results/2012.yml').values.sort{|a, b| b['date'] <=> a['date']}
 end
 
 helpers do
