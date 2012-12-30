@@ -15,6 +15,10 @@ before "index.html.erb" do
   @races = YAML.load_file('results/2012.yml').values.sort{|a, b| b['date'] <=> a['date']}
 end
 
+before "recent.html.erb" do
+  @races = YAML.load_file('results/2012.yml').values.sort{|a, b| b['date'] <=> a['date']}[0,4]
+end
+
 helpers do
   include ActionView::Helpers::NumberHelper
 end
