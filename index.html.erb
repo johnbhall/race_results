@@ -12,14 +12,14 @@
   </thead>
   <% @races.each do |race| %>
     <tr>
-      <td style="text-align: right;"><%= race['date'].strftime('%-m/%-d/%y') %></td>
+      <td><%= race['date'].strftime('%-m/%-d/%y') %></td>
       <td><%= race['name'] %></td>
       <td><%= race['location'] %></td>
       <td><%= race['distance'] %></td>
-      <td style="text-align: right;"><%= ChronicDuration.output(race['time'], :format => :chrono) %></td>
-      <td style="text-align: right;"><%= ChronicDuration.output(race['pace'], :format => :chrono) %></td>
-      <td style="text-align: right;">
-        <%= race['place'].ordinalize.gsub(race['place'].to_s, "#{race['place']}<sup>") %></sup>
+      <td><%= ChronicDuration.output(race['time'], :format => :chrono) %></td>
+      <td><%= ChronicDuration.output(race['pace'], :format => :chrono) %></td>
+      <td>
+        <%= number_with_delimiter(race['place']) %>
         / <%= number_with_delimiter(race['finishers']) %>
       </td>
     </tr>
