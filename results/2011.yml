@@ -1,11 +1,72 @@
-# Template:
-#   date: 
-#   location: ""
-#   bib: 
-#   distance: 
-#   time: 
-#   pace: 
-#   place: 
-#   gender_place: 
-#   finishers: 
-#   folder:
+Credit Union Cherry Blossom:
+  name: Credit Union Cherry Blossom
+  date: 2011-04-03
+  location: "Washington, DC"
+  bib: 125
+  distance: 10 miles
+  time: 0:53:39
+  pace: 0:05:22
+  place: 37
+  gender_place: 37
+  finishers: 16041 # 7011 men + 9030 women
+  splits:
+    5miles: 0:26:37
+
+RailsConf5k:
+  name: RailsConf5k
+  date: 2011-05-18
+  location: "Baltimore, MD"
+  bib: 25
+  distance: 5k
+  time: 0:16:21
+  pace: 0:05:16
+  place: 1
+  gender_place: 1
+  finishers: 139
+
+Covered Bridges Half Marathon:
+  name: Covered Bridges Half Marathon
+  date: 2011-06-05
+  location: "Woodstock, VT"
+  bib: 5
+  distance: half marathon
+  time: 1:14:07
+  pace: 0:05:40
+  place: 2
+  gender_place: 2
+  finishers: 1849
+
+Green Mountain Relay:
+  name: Green Mountain Relay
+  date: 2011-06-19
+  location: "Bennington, VT"
+  distance: 200 miles
+  time: 21:44:15
+  pace: 0:06:31
+  place: 1
+  notes: "12-person relay. Course record. Pace is unofficial. Jeffersonville to Bennington, VT."
+
+Phil Soule 5k Phlail:
+  name: Phil Soule 5k Phlail
+  date: 2011-10-16
+  location: "Brunswick, ME"
+  bib: 355
+  distance: 5k
+  time: 0:18:23
+  pace: 0:05:55
+  place: 4
+  gender_place: 4
+  finishers: 97
+  notes: Bowdoin Homecoming
+
+Bow Turkey Trot:
+  name: Bow Turkey Trot
+  date: 2011-11-24
+  location: "Bow, NH"
+  bib: 120
+  distance: 5k
+  time: 0:16:42
+  pace: 0:05:24
+  place: 1
+  gender_place: 1
+  finishers: 343

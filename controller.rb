@@ -12,11 +12,16 @@ require 'action_view'
 ignore "Gemfile", "Gemfile.lock", "README"
 
 before "index.html.erb" do
-  @races = YAML.load_file('results/2012.yml').values.sort{|a, b| b['date'] <=> a['date']}
+  results_files = Dir['results/*.yml']
+  results = results_files.inject([]){ |memo, loc| memo + YAML.load_file(loc).values }
+                          .sort{ |a, b| b['date'] <=> a['date'] }
+  @results_by_year = results.group_by{ |result| result['date'].year }
 end
 
 before "recent.html.erb" do
-  @races = YAML.load_file('results/2012.yml').values.sort{|a, b| b['date'] <=> a['date']}[0,4]
+  results_files = Dir['results/*.yml']
+  @results = results_files.inject([]){ |memo, loc| memo + YAML.load_file(loc).values }
+                          .sort{ |a, b| b['date'] <=> a['date'] }[0,4]
 end
 
 helpers do

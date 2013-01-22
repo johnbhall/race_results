@@ -1,0 +1,97 @@
+Credit Union Cherry Blossom:
+  name: Credit Union Cherry Blossom
+  date: 2010-04-11
+  location: "Washington, DC"
+  bib: 501
+  distance: 10 miles
+  time: 0:54:57
+  pace: 0:05:30
+  place: 55
+  gender_place: 62
+  finishers: 15762 # 6909 men + 8853 women
+  splits:
+    5miles: 0:27:31
+
+Covered Bridges Half Marathon:
+  name: Covered Bridges Half Marathon
+  date: 2010-06-06
+  location: "Woodstock, VT"
+  bib: 969
+  distance: half marathon
+  time: 1:13:05
+  pace: 0:05:35
+  place: 3
+  gender_place: 3
+  finishers: 1778
+
+Run for the Rainforest 5k:
+  name: ACT Run for the Rainforest 5k
+  date: 2010-06-20
+  location: "Arlington, VA"
+  bib: 836
+  distance: 5k
+  time: 0:16:23
+  pace: 0:05:17
+  place: 1
+  gender_place: 1
+  finishers: 722
+
+Beach to Beacon 10k:
+  name: Beach to Beacon 10k
+  date: 2010-08-07
+  location: "Cape Elizabeth, ME"
+  bib: 4480
+  distance: 10k
+  time: 0:33:05
+  pace: 0:05:20
+  place: 55
+  gender_place: 52
+  finishers: 5670
+
+100on100:
+  name: 100on100 Relay
+  date: 2010-08-28
+  location: "Ludlow, VT"
+  distance: 100 miles
+  time: 10:50:15
+  pace: 0:06:35
+  place: 
+  notes: "6-person relay. Stowe to Okemo."
+
+Army Ten Miler:
+  name: Army Ten Miler
+  date: 2010-10-24
+  location: "Washington, DC"
+  bib: 237
+  distance: 10 miles
+  time: 0:54:26
+  pace: 0:05:26
+  place: 45
+  gender_place: 45
+  finishers: 21744 # 12125 men + 9619 women
+  splits:
+    6point5miles: 0:35:48
+
+RubyConf Xk:
+  name: RubyConf Xk
+  date: 2010-11-12
+  location: "New Orleans, LA"
+  bib: 
+  distance: 10k
+  time: 0:33:26
+  pace: 0:05:23
+  place: 1
+  gender_place: 1
+  finishers: 111
+
+Bow Turkey Trot:
+  name: Bow Turkey Trot
+  date: 2010-11-25
+  location: "Bow, NH"
+  bib: 254
+  distance: 5k
+  time: 0:16:05
+  pace: 0:05:12
+  place: 1
+  gender_place: 1
+  finishers: 274

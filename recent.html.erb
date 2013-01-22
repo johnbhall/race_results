@@ -1,10 +1,10 @@
-<% @races.each do |race| %>
+<% @results.each do |result| %>
   <li>
-    <%= race['date'].strftime('%-d %b %y') %> &raquo;
-    <%= ChronicDuration.output(race['time'], :format => :chrono) %>
-    <%= race['distance'] %>
-    at <%= race['name'] %>
-    (<%= race['place'].ordinalize %>
-    out of <%= number_with_delimiter(race['finishers']) %>)
+    <%= result['date'].strftime('%-d %b %y') %> &raquo;
+    <%= ChronicDuration.output(result['time'], :format => :chrono) %>
+    <%= result['distance'] %>
+    at <%= result['name'] %>
+    (<%= result['place'].ordinalize %>
+    out of <%= number_with_delimiter(result['finishers']) %>)
   </li>
 <% end %>

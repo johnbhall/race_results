@@ -1,0 +1,60 @@
+Credit Union Cherry Blossom:
+  name: Credit Union Cherry Blossom
+  date: 2009-04-05
+  location: "Washington, DC"
+  bib: 531
+  distance: 10 miles
+  time: 0:57:55
+  pace: 0:05:48
+  place: 72
+  gender_place: 93
+  finishers: 14972 # 6649 men + 8323 women
+
+Crystal City 5k Friday:
+  name: Crystal City 5k Friday
+  date: 2009-04-17
+  location: "Crystal City, VA"
+  bib: 908
+  distance: 5k
+  time: 0:16:44
+  pace: 0:05:24
+  place: 6
+  gender_place: 6
+  finishers: 498
+
+100on100:
+  name: 100on100 Relay
+  date: 2009-08-15
+  location: "Ludlow, VT"
+  distance: 100 miles
+  time: 11:01:08
+  pace: 0:06:41
+  place: 
+  notes: "6-person relay. Stowe to Okemo."
+
+Army Ten Miler:
+  name: Army Ten Miler
+  date: 2009-10-04
+  location: "Washington, DC"
+  bib: 199
+  distance: 10 miles
+  time: 0:57:51
+  pace: 0:05:47
+  place: 97
+  gender_place: 94
+  finishers: 21524 # 11879 men + 9645 women
+  splits:
+    6point5miles: 0:38:13
+
+Bow Turkey Trot:
+  name: Bow Turkey Trot
+  date: 2009-11-26
+  location: "Bow, NH"
+  bib: 
+  distance: 5k
+  time: 
+  pace: 
+  place: 
+  gender_place: 
+  finishers: 
+  notes: no results recorded

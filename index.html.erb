@@ -1,27 +1,29 @@
 <table>
   <thead>
     <tr>
-      <th>Date</th>
-      <th>Race</th>
-      <th>Location</th>
-      <th>Distance</th>
-      <th>Time</th>
-      <th>Pace</th>
-      <th>Place</th>
+      <th class="date">Date</th>
+      <th class="race">Race</th>
+      <th class="location">Location</th>
+      <th class="distance">Distance</th>
+      <th class="time">Time</th>
+      <th class="pace">Pace</th>
+      <th class="place">Place</th>
     </tr>
   </thead>
-  <% @races.each do |race| %>
-    <tr>
-      <td><%= race['date'].strftime('%-m/%-d/%y') %></td>
-      <td><%= race['name'] %></td>
-      <td><%= race['location'] %></td>
-      <td><%= race['distance'] %></td>
-      <td><%= ChronicDuration.output(race['time'], :format => :chrono) %></td>
-      <td><%= ChronicDuration.output(race['pace'], :format => :chrono) %></td>
-      <td>
-        <%= number_with_delimiter(race['place']) %>
-        / <%= number_with_delimiter(race['finishers']) %>
-      </td>
-    </tr>
+  <% @results_by_year.keys.sort.reverse.each do |year| %>
+    <% @results_by_year[year].each_with_index do |result, index| %>
+      <tr class="<%= "new-year" if index == 0 %>">
+        <td class="date"><%= result['date'].strftime('%-m/%-d/%y') %></td>
+        <td class="race"><%= result['name'] %></td>
+        <td class="location"><%= result['location'] %></td>
+        <td class="distance"><%= result['distance'] %></td>
+        <td class="time"><%= ChronicDuration.output(result['time'], :format => :chrono) if result['time'] %></td>
+        <td class="pace"><%= ChronicDuration.output(result['pace'], :format => :chrono) if result['pace'] %></td>
+        <td class="place">
+          <%= number_with_delimiter(result['place']) if result['place'] %>
+          <%= "/ #{number_with_delimiter(result['finishers'])}" if result['place'] and result['finishers'] %>
+        </td>
+      </tr>
+    <% end %>
   <% end %>
 </table>
